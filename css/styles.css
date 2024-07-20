@@ -773,19 +773,18 @@ p,h1,h2,h3,h4,h5,h6 {
     flex-direction: row;
     gap: 8px;
 }
-
-.modal-checkbox-text span {
+.model-span {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+}
+
+.modal-checkbox-text span {
     width: 16px;
     height: 16px;
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
     fill: transparent;
 }
 
@@ -817,12 +816,15 @@ p,h1,h2,h3,h4,h5,h6 {
     display: block;
     min-width: 169px;
     height: 56px;
+    margin: 0 auto;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     background: #4d5ae5;
     color: #ffffff;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
     cursor: pointer;
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
