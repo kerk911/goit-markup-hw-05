@@ -775,9 +775,10 @@ p,h1,h2,h3,h4,h5,h6 {
     flex-direction: row;
     gap: 8px;
 }
-
-.modal-checkbox-text span {
+.model-span {
     display: inline-flex;
+}
+.modal-checkbox-text span {
     align-items: center;
     justify-content: center;
     width: 16px;
