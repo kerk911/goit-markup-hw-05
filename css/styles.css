@@ -547,60 +547,55 @@ p,h1,h2,h3,h4,h5,h6 {
     background-color: #31d0aa;
 }
 .fotter-form {
-    width: 453px;
-    height: 80px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 10px;
     margin-left: auto;
 }
 .fotter-form-email {
     display: flex;
+    gap: 24px;
 }
+
 .fotter-input {
     display: flex;
 }
-.footer-form-field {
-    margin-right: 10px;
+
+.form-text {
+    margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #fff;
+    color: #ffffff;
 }
 .footer-form-input {
-    border-radius: 4px;
+    color: #ffffff;
     width: 264px;
     height: 40px;
     background: transparent;
-    border: 1px solid #fff;
-    border-radius: 4px;
-    width: 264px;
-    height: 40px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-}
-.footer-form-input::placeholder {
-    font-weight: 400;
+    border: 1px solid #ffffff;
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
-    color: #fff;
+    padding-left: 16px;
+    border-radius: 4px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+.footer-form-input::placeholder {
+    color: #ffffff;
 }
 .footer-btn {
+    font-family: "Roboto", sans-serif;
     display: flex;
-    margin-top: auto;
+    justify-content: center;
+    align-items: center;
     border: none;
     border-radius: 4px;
-    padding: 8px 24px;
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    text-align: center;
-    color: #fff;
+    color: #ffffff;
     background: #4d5ae5;
     fill:white;
 } 
