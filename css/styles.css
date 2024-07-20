@@ -769,16 +769,12 @@ p,h1,h2,h3,h4,h5,h6 {
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: row;
+    display: inline-flex;
     gap: 8px;
 }
-.model-span {
-    display: inline-flex;
-}
+
 .modal-checkbox-text span {
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     width: 16px;
